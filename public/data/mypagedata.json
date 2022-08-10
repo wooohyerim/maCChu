@@ -1,0 +1,60 @@
+{
+  "like_beerlist": [
+    {
+      "img": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTAyMTRfMTc5%2FMDAxNjEzMjk2NTE0OTk3.r5B78sJQF2WJqNWNBM4NnS8vMfTQ0siqmhePyFp5JQsg.j9FAolzTBtq4opcNmS3F5_zuggavg146Nnf-MUb0EY8g.JPEG.ohohoh0301%2F1613296513546.jpg&type=a340",
+      "name": "카스",
+      "type": "라거",
+      "alcoholicity": 4.5,
+      "feature": "깔끔한맛 극대화",
+      "id": 1,
+      "likes": true
+    },
+    {
+      "img": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTAyMTRfMTc5%2FMDAxNjEzMjk2NTE0OTk3.r5B78sJQF2WJqNWNBM4NnS8vMfTQ0siqmhePyFp5JQsg.j9FAolzTBtq4opcNmS3F5_zuggavg146Nnf-MUb0EY8g.JPEG.ohohoh0301%2F1613296513546.jpg&type=a340",
+      "name": "카스",
+      "type": "라거",
+      "alcoholicity": 4.5,
+      "feature": "깔끔한맛 극대화",
+      "id": 1,
+      "likes": true
+    },
+    {
+      "img": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTAyMTRfMTc5%2FMDAxNjEzMjk2NTE0OTk3.r5B78sJQF2WJqNWNBM4NnS8vMfTQ0siqmhePyFp5JQsg.j9FAolzTBtq4opcNmS3F5_zuggavg146Nnf-MUb0EY8g.JPEG.ohohoh0301%2F1613296513546.jpg&type=a340",
+      "name": "카스",
+      "type": "라거",
+      "alcoholicity": 4.5,
+      "feature": "깔끔한맛 극대화",
+      "id": 1,
+      "likes": true
+    }
+  ],
+  "test_result": [
+    {
+      "img": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTAyMTRfMTc5%2FMDAxNjEzMjk2NTE0OTk3.r5B78sJQF2WJqNWNBM4NnS8vMfTQ0siqmhePyFp5JQsg.j9FAolzTBtq4opcNmS3F5_zuggavg146Nnf-MUb0EY8g.JPEG.ohohoh0301%2F1613296513546.jpg&type=a340",
+      "name": "카스",
+      "type": "라거",
+      "alcoholicity": 4.5,
+      "feature": "깔끔한맛 극대화",
+      "id": 1,
+      "likes": true
+    },
+    {
+      "img": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTAyMTRfMTc5%2FMDAxNjEzMjk2NTE0OTk3.r5B78sJQF2WJqNWNBM4NnS8vMfTQ0siqmhePyFp5JQsg.j9FAolzTBtq4opcNmS3F5_zuggavg146Nnf-MUb0EY8g.JPEG.ohohoh0301%2F1613296513546.jpg&type=a340",
+      "name": "카스",
+      "type": "라거",
+      "alcoholicity": 4.5,
+      "feature": "깔끔한맛 극대화",
+      "id": 1,
+      "likes": true
+    },
+    {
+      "img": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTAyMTRfMTc5%2FMDAxNjEzMjk2NTE0OTk3.r5B78sJQF2WJqNWNBM4NnS8vMfTQ0siqmhePyFp5JQsg.j9FAolzTBtq4opcNmS3F5_zuggavg146Nnf-MUb0EY8g.JPEG.ohohoh0301%2F1613296513546.jpg&type=a340",
+      "name": "카스",
+      "type": "라거",
+      "alcoholicity": 4.5,
+      "feature": "깔끔한맛 극대화",
+      "id": 1,
+      "likes": true
+    }
+  ]
+}
