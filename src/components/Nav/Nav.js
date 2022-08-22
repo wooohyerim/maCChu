@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
 const Nav = () => {
@@ -7,11 +8,11 @@ const Nav = () => {
       <Logo>
         ma<span>CC</span>hu
       </Logo>
-      <ul>
-        <li>리스트</li>
-        <li>마이페이지</li>
+      <NavList>
+        <Link to="/list">리스트</Link>
+        <Link to="/">마이페이지</Link>
         <li>카카오 로그인</li>
-      </ul>
+      </NavList>
     </NavBox>
   );
 };
@@ -29,5 +30,12 @@ const NavBox = styled.div`
 
 const Logo = styled.h1`
   font-size: 20px;
+  color: #fff;
+`;
+
+const NavList = styled.ul`
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
   color: #fff;
 `;
