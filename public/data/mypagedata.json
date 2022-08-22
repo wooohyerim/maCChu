@@ -15,7 +15,7 @@
       "type": "라거",
       "alcoholicity": 4.5,
       "feature": "깔끔한맛 극대화",
-      "id": 1,
+      "id": 2,
       "likes": true
     },
     {
@@ -24,7 +24,7 @@
       "type": "라거",
       "alcoholicity": 4.5,
       "feature": "깔끔한맛 극대화",
-      "id": 1,
+      "id": 3,
       "likes": true
     }
   ],
@@ -35,7 +35,7 @@
       "type": "라거",
       "alcoholicity": 4.5,
       "feature": "깔끔한맛 극대화",
-      "id": 1,
+      "id": 4,
       "likes": true
     },
     {
@@ -44,7 +44,7 @@
       "type": "라거",
       "alcoholicity": 4.5,
       "feature": "깔끔한맛 극대화",
-      "id": 1,
+      "id": 5,
       "likes": true
     },
     {
@@ -53,7 +53,7 @@
       "type": "라거",
       "alcoholicity": 4.5,
       "feature": "깔끔한맛 극대화",
-      "id": 1,
+      "id": 6,
       "likes": true
     }
   ]

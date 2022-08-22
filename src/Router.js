@@ -7,6 +7,7 @@ import Login from './pages/Login/Login';
 import Join from './pages/Join/Join';
 import List from './pages/List/List';
 import MyPage from './pages/MyPage/MyPage';
+import Test from './pages/MyPage/Test';
 
 const Router = () => {
   return (
@@ -18,6 +19,7 @@ const Router = () => {
         <Route path="/join" element={<Join />} />
         <Route path="/list" element={<List />} />
         <Route path="/mypage" element={<MyPage />} />
+        <Route path="/test" element={<Test />} />
       </Routes>
       <Footer />
     </BrowserRouter>
