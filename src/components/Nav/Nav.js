@@ -7,13 +7,13 @@ const Nav = () => {
 
   return (
     <NavBox>
-      <Logo
+      <h1
         onClick={() => {
           navigate('/');
         }}
       >
-        ma<span>CC</span>hu
-      </Logo>
+        <Logo src="/images/macchu_logo.png" alt="" />
+      </h1>
       <NavList>
         <li
           onClick={() => {
@@ -42,8 +42,8 @@ const NavBox = styled.div`
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  height: 30px;
-  padding: 10px;
+  height: 50px;
+  padding: 20px;
   background-color: #e4971c;
   color: #fff;
 `;
@@ -54,18 +54,6 @@ const NavList = styled.ul`
   width: 300px;
 `;
 
-const Logo = styled.h1`
-  @font-face {
-    font-family: 'SBAggroB';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroB.woff')
-      format('woff');
-    font-weight: normal;
-    font-style: normal;
-  }
-  font-family: 'SBAggroB';
-  font-size: 25px;
-
-  span {
-    color: #e72e2e;
-  }
+const Logo = styled.img`
+  width: 135px;
 `;
