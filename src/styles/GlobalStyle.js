@@ -5,8 +5,8 @@ import reset from 'styled-reset';
 const GlobalStyle = createGlobalStyle`
 ${reset}
 @font-face {
-    font-family: 'paybooc-Medium';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/paybooc-Medium.woff') format('woff');
+    font-family: 'NanumSquareRound';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NanumSquareRound.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -16,7 +16,7 @@ ${reset}
 }
 
 body{
-  font-family:  'paybooc-Medium';
+  font-family:  'NanumSquareRound';
 }
 
 ul,li{

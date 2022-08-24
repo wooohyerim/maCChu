@@ -1,3 +1,4 @@
+import { useState, useEffect } from 'react';
 import * as React from 'react';
 import AppBar from '@mui/material/AppBar';
 import Button from '@mui/material/Button';
@@ -29,17 +30,33 @@ function Copyright() {
   );
 }
 
-const cards = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+const cards = [1, 2, 3, 4, 5, 6];
 
 const theme = createTheme();
 
 export default function Album() {
+  const [testResult, setTestResult] = useState([]);
+  const [likeBeer, setLikeBeer] = useState([]);
+
+  useEffect(() => {
+    fetch('/data/mypagedata.json', {
+      method: 'get',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+    })
+      .then(res => res.json())
+      .then(data => {
+        setTestResult(data.test_result);
+        setLikeBeer(data.like_beerlist);
+      });
+  }, []);
+
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
       <AppBar position="relative">
         <Toolbar>
-          <CameraIcon sx={{ mr: 2 }} />
           <Typography variant="h6" color="inherit" noWrap>
             maCChu
           </Typography>
@@ -62,7 +79,7 @@ export default function Album() {
               color="text.primary"
               gutterBottom
             >
-              Album layout
+              MyPage
             </Typography>
             <Typography
               variant="h5"
@@ -88,7 +105,7 @@ export default function Album() {
         <Container sx={{ py: 8 }} maxWidth="md">
           {/* End hero unit */}
           <Grid container spacing={4}>
-            {cards.map(card => (
+            {likeBeer.map(card => (
               <Grid item key={card} xs={12} sm={6} md={4}>
                 <Card
                   sx={{
@@ -103,17 +120,14 @@ export default function Album() {
                       // 16:9
                       pt: '56.25%',
                     }}
-                    image="https://source.unsplash.com/random"
+                    image={card.img}
                     alt="random"
                   />
                   <CardContent sx={{ flexGrow: 1 }}>
                     <Typography gutterBottom variant="h5" component="h2">
-                      Heading
+                      {card.name}
                     </Typography>
-                    <Typography>
-                      This is a media card. You can use this section to describe
-                      the content.
-                    </Typography>
+                    <Typography>{card.feature}</Typography>
                   </CardContent>
                   <CardActions>
                     <Button size="small">View</Button>
