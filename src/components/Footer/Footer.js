@@ -4,7 +4,9 @@ import styled from 'styled-components';
 const Footer = () => {
   return (
     <FooterBox>
-      <Logo>{/* <img src="/images/" alt=""> */}</Logo>
+      <h1>
+        <img src="/images/macchu_logo.png" alt="" />
+      </h1>
       <CopyBox>
         <div>Copyright &copy; 2022 maCChu. All Rights Reserved.</div>
         <div>
@@ -28,18 +30,18 @@ const FooterBox = styled.div`
   line-height: 2;
 `;
 
-const Logo = styled.h1`
-  @font-face {
-    font-family: 'SBAggroB';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroB.woff')
-      format('woff');
-    font-weight: normal;
-    font-style: normal;
-  }
-  color: #fff;
-  font-family: 'SBAggroB';
-  font-size: 30px;
-`;
+// const Logo = styled.h1`
+//   @font-face {
+//     font-family: 'SBAggroB';
+//     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroB.woff')
+//       format('woff');
+//     font-weight: normal;
+//     font-style: normal;
+//   }
+//   color: #fff;
+//   font-family: 'SBAggroB';
+//   font-size: 30px;
+// `;
 
 const CopyBox = styled.div`
   display: flex;
