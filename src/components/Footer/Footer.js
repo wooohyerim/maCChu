@@ -4,9 +4,7 @@ import styled from 'styled-components';
 const Footer = () => {
   return (
     <FooterBox>
-      <Logo>
-        ma<span>CC</span>hu
-      </Logo>
+      <Logo>{/* <img src="/images/" alt=""> */}</Logo>
       <CopyBox>
         <div>Copyright &copy; 2022 maCChu. All Rights Reserved.</div>
         <div>
@@ -24,7 +22,8 @@ const FooterBox = styled.div`
   width: 100%;
   height: 200px;
   padding: 10px;
-  background-color: #ddd;
+  border-top: 1px solid #e6e6e6;
+  /* background-color: #e4971c; */
   font-size: 14px;
   line-height: 2;
 `;
@@ -46,6 +45,6 @@ const CopyBox = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 30px;
-  color: #ccc;
+  padding-top: 50px;
+  color: #333;
 `;
